@@ -73,19 +73,15 @@ h1, h2, h3, h4, h5 {
 nav{
 	display:flex;
 	justify-content: space-around;
+	padding: 1%;
 }
 nav a {
-	margin: 0 40px;
-	color: lightgray;
+	color: rgb(90, 90, 90);
 	text-decoration: none;
-	
-}
-.links{
-	width: 70%
+	padding: 1%;
 }
 .logo{
-	width:20%;
-	padding:10px;
+	padding: 1%;
 }
 .title{
 	text-align: center;
@@ -96,9 +92,6 @@ nav a {
 }
 .titleimage {
 	width: 70%;
-}
-.imagetitle{
-	
 }
 .title h1 {
 	line-height:50px;
@@ -114,29 +107,39 @@ nav a {
 .top{
 	display:flex;
 	justify-content: space-around;
-	flex-wrap: wrap;
 }
 .features {
-	width: 30%;
+	padding: 1%;
 }
 .about {
-	width: 30%;
+	padding: 1%;
 }
-.middle-img{
-
+.middle{
+	display:flex;
+	justify-content: space-around;
+}
+.bottom{
+	display:flex;
+	justify-content: space-around;
 }
 .services{
-	display:inline-block;
-	width:22%;
+	padding: 1%;
 }
 .product{
-	display:inline-block;
-	width:22%;
+	padding: 1%;
 }
 .vision{
-	display:inline-block;
-	width:22%;
+	padding: 1%;
 }
 h6{
 	text-align:center;
+}
+.contact{
+	padding: 1%;
+}
+body{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 1%;
 }
