@@ -64,3 +64,102 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	max-width:100%;
+	border: 1px solid gray;
+}
+/* Header */
+
+nav{
+	display:flex;
+	justify-content: space-around;
+	padding: 1%;
+	margin: 50px 0px 0px 0px;
+}
+nav a {
+	color: gray;
+	text-decoration: none;
+	padding: 1%;
+}
+.logo{
+}
+.title{
+	text-align: center;
+}
+.titleheader {
+	display:flex;
+	justify-content: space-around;
+}
+.titleimage {
+	width: 70%;
+}
+.title h1 {
+	line-height:50px;
+	font-size:50px;
+}
+.button{
+	border: 1px solid black;
+	padding: 5px 20px;
+	text-decoration: none;
+	color: black;
+}
+/* Body */
+.top{
+	display:flex;
+	justify-content: space-around;
+}
+.features {
+	width: 50%;
+	padding: 1%
+}
+.about {
+	width: 50%;
+	padding 1%;
+}
+.middle{
+	display:flex;
+	justify-content: space-around;
+}
+.bottom{
+	display:flex;
+	justify-content: space-around;
+}
+.services{
+	width: 33%;
+	padding 5%;
+}
+.product{
+	width: 33%;
+	padding 5%;
+}
+.vision{
+	width: 33%;
+	padding 5%;
+}
+h6{
+	text-align:center;
+}
+.digitalDesign, .UXUI, .digitalMarketing, .webDevelopment, .iOSDevelopment,.androidDevelopment{
+	padding: 1%;
+	margin: 1%;
+	background-color: rgb(235, 235, 235);
+	border: 1px solid black;
+}
+button{
+	background-color: white;
+}
+li{
+	list-style: square inside;
+}
+.servicefact{
+	display:flex;
+	justify-content: space-around;
+}
+.facts{
+	padding: 1%;
+}
+body{
+	width: 90%;
+	margin: 0 auto;
+}
